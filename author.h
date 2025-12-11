@@ -3,7 +3,7 @@
 #include <string>
 using namespace std;
 class Author{
-private:
+    private:
     string name;
     string surname;
     public:
@@ -12,6 +12,7 @@ private:
     string toString();
     string getName();
     string getSurname();
-
+ 
 };
 #endif
+ 
